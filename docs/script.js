@@ -236,9 +236,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (!isDragging) {
                     const iconId = container.querySelector('.icon').id;
                     if (iconId === 'icon6') {
-                        launchURL('https://github.com/mariarodr1136');
+                        launchURL('https://github.com/owaisazmal');
                     } else if (iconId === 'icon7') {
-                        launchURL('https://www.linkedin.com/in/mariarodr/');
+                        launchURL('https://www.linkedin.com/in/owais-khan-266492222/');
                     } else if (modals[iconId]) {
                         modals[iconId].style.display = 'block';
                         modals[iconId].style.zIndex = getHighestZIndex() + 1;
